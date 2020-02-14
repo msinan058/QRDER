@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1FF9800"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mainButtonMusteriGirisi"
+        android:layout_width="275dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="100dp"
+        android:background="#3F51B5"
+        android:shadowColor="#3F51B5"
+        android:text="Customer Entrance"
+
+        android:textColor="#00BCD4"
+        android:textColorHighlight="#E20B54"
+        android:textSize="24sp"
+        app:iconTint="#FF5722"
+        app:layout_constraintBottom_toTopOf="@+id/mainButtonRestorantGirisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mainButtonRestorantGirisi"
+        android:layout_width="275dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="120dp"
+        android:background="#D3F3E4"
+
+        android:text="Restaurant Entrance"
+        android:textColor="#00BCD4"
+        android:textColorLink="#2196F3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="113dp"
+        android:gravity="center"
+        android:text="QRDER"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#E91E63"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#D8850A"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/mainButtonMusteriGirisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

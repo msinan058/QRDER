@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QRDER</string>
+    <string name="main_musteri_activity">Menü</string>
+    <string name="please_fill_all_the_fields">Please fill all the fields below</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">Or</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="user_not_found">User not found</string>
+    <string name="cenga_copyright">CENGA © 2019</string>
+</resources>
